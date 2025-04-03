@@ -1,0 +1,222 @@
+{% extends 'landing/base.html' %}
+{% load static %}
+
+{% block content %}
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content">
+                    <div class="badge-pill"><i class="fas fa-stethoscope me-2"></i>AI-Powered Medical Scribe</div>
+                    <h1 class="hero-title">Transform Your Medical Practice with AI-Powered Documentation</h1>
+                    <div class="animated-coming-soon">
+                        <span class="coming-soon-text">Coming Soon</span>
+                        <div class="animated-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <p class="hero-description">
+                        Experience the future of medical documentation with KaiCure's advanced AI technology. Our system seamlessly converts patient conversations into structured medical notes, saving you valuable time while ensuring accurate documentation.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="/register" class="btn btn-primary hero-btn">
+                            Get Early Access
+                            <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 position-relative" data-aos="fade-left">
+                    <div class="hero-image-wrapper">
+                        <div class="floating-card card1">
+                            <i class="fas fa-microphone"></i>
+                            <span>Real-Time Transcription</span>
+                        </div>
+                        <div class="floating-card card2">
+                            <i class="fas fa-file-medical-alt"></i>
+                            <span>Structured Notes</span>
+                        </div>
+                        <div class="floating-card card3">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>HIPAA-Compliant</span>
+                        </div>
+                        <div class="floating-card card4">
+                            <i class="fas fa-hospital"></i>
+                            <span>Auto-Summarization</span>
+                        </div>
+                        <div class="floating-card card5">
+                            <i class="fas fa-user-md"></i>
+                            <span>Specialty Support</span>
+                        </div>
+                        <div class="floating-card card6">
+                            <i class="fas fa-laptop-medical"></i>
+                            <span>Auto-Summarization</span>
+                        </div>
+                        <div class="floating-card card7">
+                            <i class="fas fa-clock"></i>
+                            <span>Time-Saving</span>
+                        </div>
+                        <div class="floating-card card8">
+                            <i class="fas fa-brain"></i>
+                            <span>AI Powered</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2 class="section-title">Key Features</h2>
+                <p class="section-subtitle">Designed to transform your medical documentation workflow</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <h3 class="feature-title">Real-Time Transcription</h3>
+                        <p class="feature-text">AI listens to doctor-patient conversations and transcribes with high accuracy</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i>Instant voice recognition</li>
+                            <li><i class="fas fa-check"></i>Multi-speaker identification</li>
+                            <li><i class="fas fa-check"></i>Medical terminology support</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-clipboard-list"></i>
+                        </div>
+                        <h3 class="feature-title">Smart Summarization</h3>
+                        <p class="feature-text">Automatically extracts key information and structures it into standardized medical notes</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i>SOAP note formatting</li>
+                            <li><i class="fas fa-check"></i>Highlights critical findings</li>
+                            <li><i class="fas fa-check"></i>Customizable templates</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="feature-title">HIPAA-Compliant Security</h3>
+                        <p class="feature-text">End-to-end encryption and secure data handling that meets healthcare compliance standards</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i>Secure data transmission</li>
+                            <li><i class="fas fa-check"></i>Access controls</li>
+                            <li><i class="fas fa-check"></i>Audit logging</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits-section">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2 class="section-title">Who Benefits from KaiCure?</h2>
+                <p class="section-subtitle">Tailored solutions for healthcare professionals</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="benefit-card">
+                        <i class="fas fa-user-md benefit-icon"></i>
+                        <h3 class="benefit-title">Doctors</h3>
+                        <p>Save up to 60% of documentation time, reduce burnout, and increase patient interaction. Focus on care, not paperwork.</p>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="benefit-card">
+                        <i class="fas fa-hospital benefit-icon"></i>
+                        <h3 class="benefit-title">Clinics</h3>
+                        <p>Increase appointment capacity, improve patient satisfaction, and standardize documentation across all providers.</p>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="benefit-card">
+                        <i class="fas fa-user-injured benefit-icon"></i>
+                        <h3 class="benefit-title">Patients</h3>
+                        <p>Receive complete medical notes and visit summaries instantly via WhatsApp, ensuring you never miss important care instructions.</p>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="benefit-card">
+                        <i class="fas fa-envelope benefit-icon"></i>
+                        <h3 class="benefit-title">Email Access</h3>
+                        <p>Get professionally formatted medical reports directly to your inbox for easy sharing with specialists or for your personal records.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works-section">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2 class="section-title">How KaiCure Works</h2>
+                <p class="section-subtitle">Three simple steps to transform your practice</p>
+            </div>
+            <div class="row g-5 mt-4 align-items-center justify-content-center">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-card enhanced shadow-lg border-0 rounded-lg">
+                        <div class="step-number">1</div>
+                        <div class="step-icon bg-primary text-white">
+                            <i class="fas fa-microphone-alt fa-2x"></i>
+                        </div>
+                        <h3 class="step-title fw-bold">Record</h3>
+                        <p>Your consultation is recorded securely with our HIPAA-compliant system that accurately recognizes complex medical terminology.</p>
+                        <div class="step-highlight bg-light p-2 rounded">No additional hardware needed</div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-card enhanced shadow-lg border-0 rounded-lg">
+                        <div class="step-number">2</div>
+                        <div class="step-icon bg-primary text-white">
+                            <i class="fas fa-brain fa-2x"></i>
+                        </div>
+                        <h3 class="step-title fw-bold">Process</h3>
+                        <p>Our AI instantly analyzes the conversation, extracting diagnoses, treatments, and follow-ups into structured clinical notes.</p>
+                        <div class="step-highlight bg-light p-2 rounded">90% time reduction</div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-card enhanced shadow-lg border-0 rounded-lg">
+                        <div class="step-number">3</div>
+                        <div class="step-icon bg-primary text-white">
+                            <i class="fas fa-share-alt fa-2x"></i>
+                        </div>
+                        <h3 class="step-title fw-bold">Share</h3>
+                        <p>Send finalized reports to patients via WhatsApp or email with one click. Integration with EMR systems for seamless workflow.</p>
+                        <div class="step-highlight bg-light p-2 rounded">Instant patient communication</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Early Access Section -->
+    <section class="cta-section">
+        <div class="container text-center">
+            <h2 class="cta-title" data-aos="fade-up">Want to be notified when we launch?</h2>
+            <p class="cta-description" data-aos="fade-up" data-aos-delay="100">
+                Join our early access waitlist to be the first to experience KaiCure.
+            </p>
+            <a href="/register" class="btn btn-primary hero-btn" data-aos="fade-up" data-aos-delay="200">
+                Get Early Access
+                <i class="fas fa-arrow-right ms-2"></i>
+            </a>
+        </div>
+    </section>
+{% endblock %}
